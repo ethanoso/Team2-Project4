@@ -3,11 +3,11 @@
 ## Dependencies:
 ### npm
 #### To install:
- apt install npm 
- npm install -g npm
+##### apt install npm 
+##### npm install -g npm
 ### node v16.14.2 (make sure to confirm you have the correct version)
 #### To install:
- npm install node
+##### npm install node
  
 ### Built with react version 18.0.0
 #### To install react dependencies:
@@ -22,14 +22,3 @@ Make sure to check the readme within the react directory for more info about rea
 
 #### Languages
 javascript, html, css
-
-#### Files:
-- index.html - home page
-- styles.css - style guide for home page
-- quizpage.html - prototype framework for quiz pages
-- quizresult.html - prototype framework for result pages
-
-- instrumentquizpage.html - prototype example for quiz page
-- instrumentquizpage.js - script handles logic for prototype quiz page
-- instrumentquizresult.html - prototype example for result page
-- instrumentquizresult.js - script handles logic for prototype result page

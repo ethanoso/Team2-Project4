@@ -27,3 +27,5 @@ Make sure to check the readme within the react directory for more info about rea
 
 #### Languages
 javascript, html, css
+
+Presentation link: https://youtu.be/8Nx8yN6mia8

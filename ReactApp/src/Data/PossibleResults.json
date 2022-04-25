@@ -1,0 +1,30 @@
+[
+    { "possibleResult": "Result 1",
+            "attributeScores": [
+                {"attributeScore": 5},
+                {"attributeScore": 5},
+                {"attributeScore": 5},
+                {"attributeScore": 5}
+            ]
+    },
+
+    { "possibleResult": "Result 2",
+        "attributeScores": [
+            {"attributeScore": 4},
+            {"attributeScore": 4},
+            {"attributeScore": 4},
+            {"attributeScore": 4}
+        ]
+    },
+    { "possibleResult": "Result 3",
+        "attributeScores": [
+            {"attributeScore": 3},
+            {"attributeScore": 3},
+            {"attributeScore": 3},
+            {"attributeScore": 3}
+        ]
+    }   
+
+
+
+]

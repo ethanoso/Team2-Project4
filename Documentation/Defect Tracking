@@ -1,3 +1,28 @@
-List of Defects (check rubric for format)
+List of Defects 
 
 
+Defect: Testing defect
+Date reported: 4/19
+Who reported it: Zai
+Brief description of defect: jest testing framework was used which meant many of the components rendered from external components in reacting could not be properly run within a test.
+Date fixed: 4/23
+Who fixed it: Zai
+Brief description of how it was fixed: Made a jest config that created a navigation component to mock the nav component from react.
+
+
+Defect: original questionnaire quiz.js state issues
+Date reported: 4/12
+Who reported it: Zai
+Brief description of defect: Issues keeping track of information relayed from the home page and difficulty keeping it in the proper order.
+Date fixed: 4/18
+Who fixed it: Zai
+Brief description of how it was fixed: separating each question to its own screen using useEffect()
+
+
+Defect: React App page/variables rendering/updating
+Date reported: 4/9
+Who reported it: Zai
+Brief description of defect: useState() function was not updating the variables, which caused an error when the user was interacting with the quiz and selecting answers.
+Date fixed: 4/16
+Who fixed it: Zai
+Brief description of how it was fixed: Each time a component is rendered, useEffect() was used to force the page to render each time an action was performed. 

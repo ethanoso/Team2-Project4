@@ -1,4 +1,11 @@
-List of Defects 
+List of Defects
+
+(~3/6)
+Aaron Horton
+Defect included an error in software, which prevented variable values from being read to new html pages.
+(~3/6)
+Aaron Horton
+The solution to this problem was making a new class file for Session Storage, which allowed for the storage and reading of the result variables to the result page.
 
 
 Defect: Testing defect

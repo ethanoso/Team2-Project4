@@ -35,3 +35,11 @@ Brief description of defect: useState() function was not updating the variables,
 Date fixed: 4/16
 Who fixed it: Zai
 Brief description of how it was fixed: Each time a component is rendered, useEffect() was used to force the page to render each time an action was performed. 
+
+Defect: React App special characters not writing correctly
+Date reported: 4/24
+Who reported it: Zai & Aaron
+Brief description of defect: Special characters were not being set and read correctly from react to web pages.
+Date fixed: 4/24
+Who fixed it: Zai & Aaron
+Brief description of how it was fixed: The Defect was fixed by importing ReactHtmlParser, which allowed for the characters to be read properly.

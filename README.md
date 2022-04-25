@@ -20,6 +20,10 @@ Make sure to check the readme within the react directory for more info about rea
 - Navigate to the react directory
 - npm start
 
+### Test:
+- Navigate to the react directory
+- npm test
+
 #### Languages
 javascript, html, css
 

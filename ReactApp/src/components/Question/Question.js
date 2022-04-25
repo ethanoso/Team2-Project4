@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import "./Question.css";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 const Question = ({
   currQues,
@@ -50,7 +51,7 @@ const Question = ({
       <h1>Question {currQues + 1} :</h1>
 
       <div className="singleQuestion">
-        <h2>{questions[currQues].question}</h2>
+        <h2>{ReactHtmlParser(questions[currQues].question)}</h2>
         <div className="options">
           {error && <ErrorMessage>{error}</ErrorMessage>}
           {options &&
@@ -61,7 +62,7 @@ const Question = ({
                 onClick={() => handleCheck(i)}
                 disabled={selected}
               >
-                {i}
+                {ReactHtmlParser(i)}
               </button>
             ))}
         </div>

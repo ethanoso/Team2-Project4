@@ -5,6 +5,7 @@
 #### To install:
 ##### apt install npm 
 ##### npm install -g npm
+##### npm install react-html-parser --legacy-peer-deps
 ### node v16.14.2 (make sure to confirm you have the correct version)
 #### To install:
 ##### npm install node

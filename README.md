@@ -12,7 +12,7 @@
 ### Built with react version 18.0.0
 #### To install react dependencies:
 Navigate to the ReactApp folder in terminal and run the command
-#####npm install
+##### npm install
 You can check the react dependencies within packages.json
 Make sure to check the readme within the react directory for more info about react and the available scripts associated with it
 
